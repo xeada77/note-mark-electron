@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
 
 @layer base {
   #root {
@@ -11,5 +11,8 @@
   body {
     @apply h-full;
     @apply select-none;
+    @apply bg-tranparent;
+    @apply font-mono antialiased text-white;
+    @apply overflow-hidden;
   }
 }
